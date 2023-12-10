@@ -25,6 +25,11 @@ nav li {
     margin: 10px;
 }
 
+a {
+    color: white;
+    justify-content: space-around;
+}
+
 header img {
     width: 100%;
     height: fit-content;
