@@ -80,8 +80,8 @@ footer {
 .project-column {
     display: flex;
     flex: 1 0 100%;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .project-box {
@@ -90,6 +90,7 @@ footer {
     min-height: 100%;
     max-width: max-content;
     padding: 5px;
+    margin: 20px;
     border: 10px solid #317A86;
 }
 
@@ -100,14 +101,6 @@ footer {
 .project-screenshot {
     max-height: 100px;
     max-width: fit-content;
-}
-
-.project-box img {
-    flex-grow: 1;
-}
-
-#project01 {
-    flex-grow: 2;
 }
 
 .contactme {
@@ -125,3 +118,25 @@ footer {
 .contactme a {
     color: white;
 }
+
+@media screen and (min-width: 768px) {
+    .project-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .project-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .project-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
