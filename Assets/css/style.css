@@ -61,7 +61,7 @@ footer {
 }
 
 .aboutme {
-    background-color: #61727C;
+    background-color: #5D8679;
     padding: 20px;
     margin-top: 0;
     margin-bottom: 0;
@@ -71,7 +71,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: #5D8679;
+    background-color: lightgray;
     padding: 20px;
     margin-top: 0;
     margin-bottom: 0;
@@ -85,12 +85,12 @@ footer {
 }
 
 .project-box {
-
+    background-color: white;
     justify-content: center;
     min-height: 100%;
     max-width: max-content;
     padding: 5px;
-    border: 2px solid #317A86;
+    border: 10px solid #317A86;
 }
 
 .project-header {
