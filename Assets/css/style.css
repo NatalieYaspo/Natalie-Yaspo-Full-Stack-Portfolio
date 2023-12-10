@@ -23,7 +23,6 @@ nav li {
     list-style-type: none;
     display: inline;
     margin: 10px;
-    text-align: right;
 }
 
 header img {
@@ -54,3 +53,37 @@ footer {
     text-align: center;
 }
 
+.mywork {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: -1.5rem;
+}
+
+.project-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    border: 2px solid #317A86;
+}
+
+.project-header {
+    text-align: center;
+}
+
+.project-box img {
+    flex-grow: 1;
+}
+
+#project01 {
+    flex-grow: 2;
+}
