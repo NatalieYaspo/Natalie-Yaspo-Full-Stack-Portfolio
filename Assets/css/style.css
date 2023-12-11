@@ -89,7 +89,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: white;
+    background-color: white;
     justify-content: center;
     min-height: 75%;
     max-width: 33.3%%;
@@ -138,7 +138,7 @@ footer {
     .project-column:last-child {
       flex-grow: 1;
     }
-  }
+}
   
   @media screen and (min-width: 992px) {
     header {
@@ -149,4 +149,4 @@ footer {
       flex: 0 0 33.333%;
       max-width: 100%;
     }
-  }
+}
