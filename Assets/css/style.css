@@ -1,5 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 body {
@@ -16,6 +18,7 @@ header {
 nav {
     color: white;
     padding: 15px;
+    width: 100%;
 }
 
 nav li {
@@ -67,30 +70,30 @@ footer {
 }
 
 .mywork {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     background-color: lightgray;
     padding: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .project-column {
     display: flex;
-    flex: 1 0 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .project-box {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     justify-content: center;
     min-height: 100%;
     max-width: max-content;
     padding: 5px;
-    margin: 20px;
     border: 10px solid #317A86;
+    flex-grow: 1;
 }
 
 .project-header {
@@ -98,8 +101,13 @@ footer {
 }
 
 .project-screenshot {
-    max-height: 100px;
-    max-width: fit-content;
+    width: 100%;
+}
+
+/*I need to make this one larger than the others.*/
+.first-project {
+    width: 75%;
+    justify-content: center;
 }
 
 .contactme {
