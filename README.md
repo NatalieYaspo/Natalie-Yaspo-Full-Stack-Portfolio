@@ -15,7 +15,7 @@ Open this URL to my GitHub: https://github.com/NatalieYaspo/Natalie-Yaspo-Full-S
 ## Usage
 
 When you select different sections in my nav bar, it will take you to each of those sections.  The resume will take you to my in-profress Google Doc Resume.
-<img src="./Assets/images/Contact_Me_Screenshot.jpg" alt="Nav Bar with Natalie Yaspo and links to About Me, My Full-Stack Work, Resume, and Contact Me">
+<img src="./Assets/images/Nav_Bar_Screenshot.jpg" alt="Nav Bar with Natalie Yaspo and links to About Me, My Full-Stack Work, Resume, and Contact Me">
 
 
 As I update my active portfolio, the photos of each project will link you to the live project.  My first project, Horiseon Refactor, is live:
