@@ -89,7 +89,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: white;
+    color: white;
     justify-content: center;
     min-height: 75%;
     max-width: 33.3%%;
