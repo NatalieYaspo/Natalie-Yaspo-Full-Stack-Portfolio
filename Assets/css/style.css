@@ -92,7 +92,7 @@ footer {
     background-color: white;
     justify-content: center;
     min-height: 75%;
-    max-width: 33.3%%;
+    max-width: 33.3%;
     padding: 5px;
     border: 10px solid #317A86;
     margin: 20px;
@@ -108,8 +108,14 @@ footer {
 }
 
 /*I need to make this one larger than the others.*/
-.first-project {
+#first-project {
     width: 100%;
+    justify-content: center;
+}
+
+/*I need to make these to be a little smaller than the 1st project.*/
+#project02 {
+    width: 75%;
     justify-content: center;
 }
 
